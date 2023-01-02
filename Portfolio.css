@@ -1,0 +1,14 @@
+body{
+    border-image:auto;
+}
+header .heading{
+    padding-left: 30px;
+    font-size: 30px;
+}
+header nav li {
+    display: inline-block;
+    justify-content: space-around;
+}
+header nav li a{
+    padding:15px;
+}
