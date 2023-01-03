@@ -1,0 +1,73 @@
+.main{
+    background-color:#1f2833;
+}
+.my-image{
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 0px;
+    align-self: center;
+    justify-items: center;
+    clip-path: circle();
+}
+
+.my-content{
+    margin-left: 80px;
+    margin-right: 60px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px;
+    background-color:#66fcf1;
+    color:#0b0c10;
+    font-size: 16px;
+    transform:scale(1.1);
+}
+.my-content:hover{
+    scale: 1.01;
+    box-shadow:10px 10px gray;
+}
+.button{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  .button a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .button a:before,
+  .button a:after{
+    position: absolute;
+    content: "Let's Talk";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .button a:before{
+    color: #66fcf1;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .button a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .button a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+  
