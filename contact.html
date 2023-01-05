@@ -7,6 +7,7 @@
     <title>MyPortfolio-contactPage</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/7873fe4176.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header  class="w-full flex flex-wrap items-center justify-between py-3 bg-black text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
@@ -22,17 +23,35 @@
     </nav>
     </header>
     <div  class="contact-me flex justify-center bg-black m-20 p-20">
-    <section>
+    <section class="overflow-hidden">
         <h1 style="color: #66FCF1;" class="p-3">CONTACT ME</h1>
         <p style="color:#66FCF1" class="p-3">For helping me with further more updates to add in this website comment the features down in the description</p><br>
         <form>
+            <label style="color: #66FCF1;">Name: </label>
             <input class="name border-solid border-sky-500 block p-2" type="text" placeholder="name" id="name" name="Name" required>
             <br>
+            <label style="color: #66FCF1;">E-Mail: </label>
             <input class="email block p-2" type="text" placeholder="email" id="email" name="email" required>
             <br>
-            <input class="description block p-20" type="textarea" placeholder="message" id="message" name="message" on required> 
+            <label style="color: #66FCF1;">Message: </label>
+            <textarea class="block" rows="8" cols="40" placeholder="message" required> </textarea>
+            <br>
+            <button class="button"><a>Send</a></button>
         </form>
     </section>
 </div>
+<footer>
+       <footer class="contact justify-center bg-black p-10">
+        <h1 class="p-5"><strong>Let us Connect</strong></h1>
+        <h3 class="p-5">FOR HIRING OR INTERNSHIP WALK INTO LINKEDIN ,CHECK MY PROJECTS CODES AT GITHUB AND INTERACT WITH ME ON INSTAGRAM</h3>
+        <div>
+            <a href="https://www.instagram.com/_game._.changer007/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/mwlite/home" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Gokul141103" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <h1 class="p-4">E-Mail: gokulnatarajmoorthy@gmail.com</h1>
+
+    </footer>
+</footer>
 </body>
 </html>

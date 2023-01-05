@@ -24,6 +24,66 @@ contact-me{
   justify-content: center;
   width: 50%;
 }
-.name{
+.button{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
   
+}
+.button a:before,
+.button a:after{
+  position: absolute;
+  content: "Send";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid gray;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button a:before{
+  color: #66fcf1;
+  background: gray;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button a:after{
+  color: #66fcf1;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.contact{
+  color: #66fcf1;
+  align-items: center;
+}
+footer{
+  background-color: #c6c4c5;
+  text-align: center;
+  border-radius:8px;
+  padding:20px;
+  margin-top: 20px;
+  color:rgb(189, 33, 33);
+}
+footer i{
+  font-size: 50px;
+  width: 90px;
+  transition: 3s;
+  
+}
+footer i:hover{
+  transform: scale(1.6);
 }
