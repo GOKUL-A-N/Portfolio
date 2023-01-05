@@ -1,3 +1,19 @@
+header{
+  position: fixed;
+}
+header .heading{
+  padding-left: 30px;
+  font-size: 30px;
+}
+header nav li {
+  display: inline-block;
+  justify-content: space-around;
+  padding:15px;
+  transition: 2s;
+}
+header nav li:hover{
+  transform: scale(1.2);
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -10,11 +26,13 @@
 }
 
 .column {
+  margin-top: 80px;
   flex: 50%;
   background-color: #66fcf1;
 }
 #cloumn-1{
   background-color: #1f2833;
+  padding-bottom: 30px;
 }
 .about-images{
     display: block;
