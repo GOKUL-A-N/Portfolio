@@ -9,34 +9,43 @@
     <link rel="stylesheet" href="About.css">
 </head>
 <body>
-    <header  class="w-full flex flex-wrap items-center justify-between py-3 bg-black text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
-        <h1 class="heading" style="color: #66FCF1;">Portfolio...</h1>
-    <nav class="flex flex-col md:flex-row items-center justify-center gap-0 md:gap-0 py-5">
-        
-        <ul>
-            <li style="color: #66FCF1;"><a href="index.html">Home</a></li>
-            <li style="color: #66FCF1;"><a href="">SKILLS</a></li>
-            <li style="color: #66FCF1;"><a href="">PROJECTS & INTERSHIPS</a></li>
-            <li style="color: #66FCF1;"><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    </header>
-    <div class="row" id="container">
-    <div class="column" id="cloumn-1">
-    <section class="about-images">
-            <img class="justify-center" src="./images/1668101070254-01.jpeg" width="350" height="400">
-    </section>
+    <div class="header container">
+        <header>
+            <div class="brand"><h1>PortFolio...</h1></div>
+            <div class="nav-bar">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Skills</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav>
+                <div class="ham">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
     </div>
-    <div class="column">
-    <section class="p-24 text-center">
-        <h1><strong>AB<u>OUT M</u>E:</strong></h1>
-        <br>
-        <p class="text-0.5xl font-mono">Myself Gokul.A.N developing my skills to become a full-stack web developer.I'm currently pursuing my Bachlor's degree in Computer Science Engineering.I'm a determined  hardworker eager in grasping more knowledge and quiet good in problem solving.Mostly intreseted in front-end web development.I prefer working with javascript ecosystem,hence I am fine with html , css , Java , Mysql and frameworks such as React,tailwind and tools like git, github ,linux.<br>
-        Although I enjoy building something fun ,exploring new technologies I also enjoy spending my time with my friends and family ,playing some sort of outdoor games ,listening to music </p>
-        <br>
-        <button class="button"><a>Let's Talk</a></button>
-    </section>
-    </div>
+    <div class="main">
+        <div class="row">
+            <div class="column" id="cloumn-1">
+            <section class="about-images">
+                    <img class="justify-center" src="./images/1668101070254-01.jpeg" width="350" height="400">
+            </section>
+            </div>
+            <div class="column">
+            <section class="p-24 text-center">
+                <h1><strong>AB<u>OUT M</u>E:</strong></h1>
+                <br>
+                <p class="text-0.5xl font-mono">Myself Gokul.A.N developing my skills to become a full-stack web developer.I'm currently pursuing my Bachlor's degree in Computer Science Engineering.I'm a determined  hardworker eager in grasping more knowledge and quiet good in problem solving.Mostly intreseted in front-end web development.I prefer working with javascript ecosystem,hence I am fine with html , css , Java , Mysql and frameworks such as React,tailwind and tools like git, github ,linux.<br>
+                Although I enjoy building something fun ,exploring new technologies I also enjoy spending my time with my friends and family ,playing some sort of outdoor games ,listening to music </p>
+                <br>
+                <button class="button"><a>Let's Talk</a></button>
+            </section>
+            </div>
+            <script src="About.js"></script>
     </div>
 </body>
 </html>
