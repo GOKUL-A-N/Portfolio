@@ -7,7 +7,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
   background-color: #000;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .main {
 	height: 100vh;
@@ -170,11 +170,16 @@ html {
 	.header .nav-bar .ham {
 		display: none;
 	}
+	.main .row{
+		display:flex;
+		flex-direction: row;
+
+	}
 }
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 30px;
   font-size: 15px;
   height: 100vh;
@@ -182,19 +187,25 @@ html {
 }
 
 .column {
-  margin-top: 80px;
+  margin: auto;
   flex: 50%;
   background-color: #66fcf1;
+	text-align: center;
 }
 #cloumn-1{
-  background-color: #1f2833;
-  padding-bottom: 30px;
+  background-color: #000;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+#column-2{
+	overflow: scroll;
 }
 .about-images{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: auto;
     margin-bottom: auto;
     width: 50%;
   }
