@@ -6,8 +6,20 @@
 html {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
-  background-color: #000;
+  background-color: var(--black);
 	overflow: hidden;
+}
+:root ,[data-theme="light"]{
+	--black:#e3e2df;
+	--grey:#e3afbc;
+	--greenishblue:#ee4c7c;
+	--blue:#9a1750;
+}
+[data-theme="dark"]{
+	--black:#0b0c10;
+	--grey:#c5c6c7;
+	--greenishblue:#66fcf1;
+	--blue:#45a29e;
 }
 .main {
 	height: 100vh;
@@ -37,7 +49,7 @@ html {
 	justify-content: space-between;
 }
 .header .brand {
-	color: #66fcf1;
+	color: var(--greenishblue);
 	font-weight: 300;
 }
 .header .nav-bar nav {
@@ -49,7 +61,7 @@ html {
 	position: absolute;
 	left: 0%;
 	top: 68px;
-	background-color:black;
+	background-color:var(--black);
 	width: 100%;
 	height: 100vh;
 	text-align: center;
@@ -74,20 +86,20 @@ html {
 .header .nav-bar nav .nav-list li a {
 	font-size: 5rem;
 	text-decoration: none;
-	color: #66fcf1;
+	color:var(--greenishblue);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 .header .nav-bar .nav-button {
 	padding: 10px;
-	border-top: .5px solid rgba(241, 232, 232, 0.966);
+	border-top: .5px solid var(--grey);
 	/* display: none; */
 }
 .header .nav-bar .nav-button .button {
 	display: inline-block;
 	padding: 25px 80px;
-	background-color: rgb(144, 209, 187);
-	color: black;
+	background-color:var(--blue);
+	color: var(--black);
 	text-decoration: none;
 }
 
@@ -97,12 +109,12 @@ html {
 	display: inline-block;
 	cursor: pointer;
 	padding: 20px;
-	border: 1px solid black;
+	border: 1px solid var(--black);
 }
 .header .nav-bar .ham .bar {
 	height: 2px;
 	width: 20px;
-	background-color: white;
+	background-color: var(--grey);
 	position: relative;
 	transition: .5s ease all;
 }
@@ -112,7 +124,7 @@ html {
 	position: absolute;
 	height: 2px;
 	width: 20px;
-	background-color: white;
+	background-color: var(--grey);
 	transition: .5s ease all;
 }
 .header .nav-bar .ham .bar::before {
@@ -137,7 +149,6 @@ html {
 	background-color: transparent;
 }
 
-/* For desktop style */
 @media only screen and (min-width: 800px) {
 	.header .nav-bar {
 		width: auto;
@@ -147,6 +158,7 @@ html {
 		transform: translate(0, 0);
 		height: auto;
 		width: auto;
+		justify-content: right;
 		flex-direction: row;
 		background-color: transparent;
 		padding: 0;
@@ -164,22 +176,25 @@ html {
 		justify-content: center;
 	}
 	.header .nav-bar nav .nav-list li a {
-		color: #66fcf1;
+		color: var(--greenishblue);
 		font-size: 1.8rem;
 	}
 	.header .nav-bar .ham {
 		display: none;
 	}
-	.main .row{
-		display:flex;
+	.main{
+		display: flex;
 		flex-direction: row;
-
+	}
+	.row{
+		display: flex;
+		flex-direction: column;
 	}
 }
 
 .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 30px;
   font-size: 15px;
   height: 100vh;
@@ -189,11 +204,11 @@ html {
 .column {
   margin: auto;
   flex: 50%;
-  background-color: #66fcf1;
+  background-color: var(--greenishblue);
 	text-align: center;
 }
 #cloumn-1{
-  background-color: #000;
+  background-color: var(--black);
 	display: flex;
 	justify-content: center;
   align-items: center;
@@ -236,17 +251,17 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
+    border: 5px solid var(--black);
     box-sizing: border-box;
     border-radius: 5px;
   }
   .button a:before{
-    color: #66fcf1;
-    background: #000;
+    color:var(--greenishblue);
+    background:var(--black);
     transform: rotateY(0deg) translateZ(25px);
   }
   .button a:after{
-    color: #000;
+    color:var(--black);
     transform: rotateX(90deg) translateZ(25px);
   }
   .button a:hover{
