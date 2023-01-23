@@ -1,5 +1,5 @@
 body{
-	background-color: var(--black);
+	background-color: var(--greenishblue);
   }
 	:root ,[data-theme="light"]{
 		--black:#e3e2df;
@@ -182,9 +182,10 @@ html {
 	flex-direction: column;
 	margin:auto;
 	font-size: 18px;
-	color: var(--greenishblue);
+	color: var(--black);
 	justify-content: center;
 	align-items: center;
+	background-color: var(--greenishblue);
 	width: 50%;
   }
   .button{
