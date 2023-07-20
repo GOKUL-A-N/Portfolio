@@ -13,9 +13,9 @@ import typescriptImg from "../assets/typescriptImg.png"
 
 const Skills = () => {
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col justify-center '>
       <h1 className='text2 text-center p-4 font-bold text-[25px] sm:text-[30px] '>Skills</h1>
-      <div className='slider'>
+      <div className='slider bg-white'>
           <div className='slide-track'>
           <img src={htmlImg} className='slide' height="80px" width="80px" alt="" />
           <img src={cssImg} className='slide' height="80px" width="80px" alt="" />
