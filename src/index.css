@@ -24,6 +24,27 @@ body{
     color: #9a9a9a;
 }
 
+/* shine */
+
+.btn-shine{
+    /* position: absolute; */
+    /* top: 50%;  transform: translateY(-50%); */
+    
+    background: linear-gradient(90deg ,#9a9a9a, transparent 40%, #fff ,transparent 60%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s infinite linear;
+} 
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -200% 0;
+    }
+}
+
 .img{
     clip-path: circle();
 }

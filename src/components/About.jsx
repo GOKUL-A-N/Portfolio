@@ -24,9 +24,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div></div>
-      <div className='p-3 sm:ml-5'>
-        <h1 className='text1 font-bold text-[20px] sm:text-[30px]'>Education</h1>
+      <div className='flex flex-col md:flex-row'>
+      <div className='p-3 md:w-[50%] sm:ml-5'>
+        <h1 className='text1 font-bold  text-[20px] sm:text-[30px]'>Education</h1>
         <br />
         <h4 className='text1 font-bold text-[10px] sm:text-[18px]'>B.E COMPUTER SCIENCE AND ENGINEERING</h4>
         <h4 className='text4 text-[15px] sm:text-[20px]'>2021-Present</h4>
@@ -42,6 +42,19 @@ const About = () => {
          <h4 className='text4 text-[15px] sm:text-[20px]'>2018-2019</h4>
          <h4 className='text4 text-[15px] sm:text-[20px]'>Bharathi Vidhyalaya Matric Hr Sec School</h4>
          <h4 className='text1 text-[15px] sm:text-[22px]'>Percentage : 85.2%</h4>
+      </div>
+      <div className='flex-1 flex flex-col pl-4 '>
+        <h1 className='text1  font-bold text-[20px] sm:text-[30px]'>What I Offer ?</h1>
+        <h3 className='text4 text-[15px] sm:text-[20px]'> FreeLance Available for   </h3>
+        <br />
+        <h3 className='text1 font-bold text-[20px] sm:text-[28px]'>1] Website developement</h3>
+        <ul>
+          <li className='text4'>I'll Provide  </li>
+          <li className='text1'>WireFrames</li>
+          <li className='text1'>Ui Design Prototype</li>
+          <li className='text1'>Website Developed</li>
+        </ul>
+      </div>
       </div>
       </Fade>
     </div>
