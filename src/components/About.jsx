@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='flex flex-col bg-black'>
       <h1 className='text2 text-center sm:mt-[-60px] font-bold text-[25px] sm:text-[30px]'>about me</h1>
-      <Fade direction="down" >
+      <Fade direction="left" >
       <div className='flex flex-col md:flex-row'>
         <div className='flex-1 flex items-center justify-center w-full md:w-[30%]'>
            <img className='mt-4' width="100%" height="100%" src={profileImg} alt="" />
