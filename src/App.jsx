@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className=''>
       <div>
-        <h4 className='text1 top-[400px] rotate-[-90deg] fixed items-center right-[-70px] invisible sm:visible' >gokulnatarajmoorthy@gmail.com</h4>
+        <h4 className='text1 z-10 top-[400px] rotate-[-90deg] fixed items-center right-[-70px] invisible sm:visible' >gokulnatarajmoorthy@gmail.com</h4>
       </div>
       <Navbar />
       <section id="home"><Home /></section>

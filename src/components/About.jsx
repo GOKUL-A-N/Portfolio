@@ -1,17 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import profileImg from "../assets/profileImg.jpeg";
+import profileImg from "../assets/ProfilePhoto.jpg";
 import Resume from "../assets/Resume.pdf"
 import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col bg-black'>
       <h1 className='text2 text-center sm:mt-[-60px] font-bold text-[25px] sm:text-[30px]'>about me</h1>
       <Fade direction="down" >
       <div className='flex flex-col md:flex-row'>
         <div className='flex-1 flex items-center justify-center w-full md:w-[30%]'>
-           <img className='img' width="50%" height="30%" src={profileImg} alt="" />
+           <img className='mt-4' width="100%" height="100%" src={profileImg} alt="" />
         </div>
         <div className='flex-1 flex w-full md:w-[70%] justify-center '>
           
