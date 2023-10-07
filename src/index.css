@@ -48,9 +48,13 @@ body{
     }
 }
 
-/* .button{
+.background{
+    background-color: #000000;
+}
+.background:hover{
     background-color: #15b4ae;
 }
+/*
 .button:hover{
     color: white;
     background-color: black;

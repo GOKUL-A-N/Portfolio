@@ -27,26 +27,42 @@ const About = () => {
       
       {/* <Fade direction='right'></Fade> */}
       <div className='p-3 sm:ml-5'>
-        <h1 className='text1 font-bold text-[20px] sm:text-[30px]'>Education</h1>
+        <h1 className=' font-bold text-[20px] text-gray-500 sm:text-[30px]'>Education & Experience</h1>
         <br />
-        <div>
-        <h4 className='text1 font-bold text-[10px] sm:text-[18px]'>B.E COMPUTER SCIENCE AND ENGINEERING</h4>
-        <h4 className='text4 text-[15px] sm:text-[20px]'>2021-Present</h4>
-        <h4 className='text4 text-[15px] sm:text-[20px]'>Hindusthan College of Engineering  and Technology</h4>
-        <h4 className='text1 text-[15px] sm:text-[20px]'>CGPA : 8.48</h4>
+        <hr />
+        <div className=' flex font-extrabold p-8 background text-black rounded'>
+        <div className='sm:w-[25%]'><h4 className=' text-white  text-[10px] sm:text-[18px]'>B.E COMPUTER SCIENCE AND ENGINEERING</h4></div>
+        <div className='sm:w-[25%]'><h4 className=' text-[15px] sm:text-[20px]'>2021-Present</h4></div>
+        <div className='sm:w-[50%]'>
+        <h4 className=' text-[15px] sm:text-[20px]'>Hindusthan College of Engineering  and Technology</h4>
+        <h4 className=' text-[15px] sm:text-[20px]'>CGPA : 8.48</h4>
         </div>
-        <br />
-         <h4 className='text1 font-bold text-[10px] sm:text-[18px]'>HSE</h4>
-         <h4 className='text4 text-[15px] sm:text-[20px]'>2020-2021</h4>
-         <h4 className='text4 text-[15px] sm:text-[20px]'>Saratha Matric Hr Sec School</h4>
-         <h4 className='text1 text-[15px] sm:text-[22px]'>Percentage : 91%</h4>
-         <br />
-         <h4 className='text1 font-bold text-[10px] sm:text-[18px]'>SSLC</h4>
-         <h4 className='text4 text-[15px] sm:text-[20px]'>2018-2019</h4>
-         <h4 className='text4 text-[15px] sm:text-[20px]'>Bharathi Vidhyalaya Matric Hr Sec School</h4>
-         <h4 className='text1 text-[15px] sm:text-[22px]'>Percentage : 85.2%</h4>
+        </div>
+        <hr className='border-inherit' />
+        
+         <div className=' flex font-extrabold p-8 background text-black rounded'>
+         <div className='sm:w-[25%]'><h4 className=' text-white  text-[10px] sm:text-[18px]'>HSE</h4></div>
+        <div className='sm:w-[25%]'><h4 className=' text-[15px] sm:text-[20px]'>2020-2021</h4></div>
+        <div className='sm:w-[50%]'>
+        <h4 className=' text-[15px] sm:text-[20px]'>Saratha Matric Hr Sec School</h4>
+        <h4 className=' text-[15px] sm:text-[20px]'>Percentage : 91%</h4>
+        </div>
+        
+         </div>
+         <hr />
+        {/* <br /> */}
+        
+         <div className=' flex font-extrabold p-8 background text-black rounded'>
+         <div className='sm:w-[25%]'><h4 className=' text-white  text-[10px] sm:text-[18px]'>SSLC</h4></div>
+        <div className='sm:w-[25%]'><h4 className=' text-[15px] sm:text-[20px]'>2018-2019</h4></div>
+        <div className='sm:w-[50%]'>
+        <h4 className=' text-[15px] sm:text-[20px]'>Bharathi Vidhyalaya Matric Hr Sec School</h4>
+        <h4 className=' text-[15px] sm:text-[20px]'>Percentage : 86%</h4>
+        </div>
+         </div>
+         <hr />
       </div>
-      
+
     </div>
   )
 }
