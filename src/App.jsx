@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 const App = () => {
   return (
     <div className=''>
+      
       <div>
         <h4 className='text1 z-10 top-[400px] rotate-[-90deg] fixed items-center right-[-70px] invisible sm:visible' >gokulnatarajmoorthy@gmail.com</h4>
       </div>
@@ -20,6 +21,7 @@ const App = () => {
       <section id='skills'><Skills /></section>
       <section id='projects'><Projects /></section>
       <section id='contact'><Contact /></section>
+      
     </div>
   )
 }
