@@ -6,7 +6,7 @@ import youtubeIcons from "../assets/youtubeIcons.png";
 
 const Home = () => {
   return (
-    <div className='h-screen flex flex-col pl-[120px]  justify-center'>
+    <div className='h-screen flex flex-col pl-[120px] items-center  justify-center'>
       
       <div className='mt-[-50px]'>
         <h1 className='text1 text-[33px] sm:text-[50px] md:text-[70px]  font-bold'>Front-End<br /> Web Developer /<br /> Ui Designer </h1>
