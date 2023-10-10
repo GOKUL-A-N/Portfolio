@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import portfoliosound from "./assets/portfoliosound.ogg"
-import { useState } from 'react';
+// import { useState } from 'react';
 // import ReactAudioPlayer from "react-audio-player";
 
 // const [music,onmusic] = useState();
@@ -36,7 +36,7 @@ const App = () => {
       <section id='skills'><Skills /></section>
       <section id='projects'><Projects /></section>
       <section id='contact'><Contact /></section>
-      <audio id="music" onLoad={handlemusic} src={portfoliosound} />
+      <audio id="music" src={portfoliosound} />
       
     </div>
   )
