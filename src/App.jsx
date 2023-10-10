@@ -37,7 +37,6 @@ const App = () => {
       <section id='projects'><Projects /></section>
       <section id='contact'><Contact /></section>
       <audio id="music" src={portfoliosound} />
-      
     </div>
   )
 }
