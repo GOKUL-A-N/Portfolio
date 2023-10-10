@@ -6,18 +6,18 @@ import About from './components/About';
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import portfoliosound from "./assets/portfoliosound.ogg"
+// import portfoliosound from "./assets/portfoliosound.ogg"
 // import { useState } from 'react';
 // import ReactAudioPlayer from "react-audio-player";
 
 // const [music,onmusic] = useState();
 
-const handlemusic = () => {
-  const x = document.getElementById('music')
-  // (x.play === false)? x.autoplay = true: x.play = false;
-  x.autoplay = true
-  x.load();
-}
+// const handlemusic = () => {
+//   const x = document.getElementById('music')
+//   // (x.play === false)? x.autoplay = true: x.play = false;
+//   x.autoplay = true
+//   x.load();
+// }
 
 
 
@@ -36,7 +36,7 @@ const App = () => {
       <section id='skills'><Skills /></section>
       <section id='projects'><Projects /></section>
       <section id='contact'><Contact /></section>
-      <audio id="music" src={portfoliosound} />
+      {/* <audio id="music" src={portfoliosound} /> */}
     </div>
   )
 }
