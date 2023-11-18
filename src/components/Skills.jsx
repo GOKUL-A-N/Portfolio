@@ -14,8 +14,8 @@ import typescriptImg from "../assets/typescriptImg.png"
 const Skills = () => {
   return (
     <div className='flex flex-col justify-center '>
-      <h1 className='text2 text-center p-4 font-bold text-[25px] sm:text-[30px] '>Skills</h1>
-      <div className='slider bg-gray-700'>
+      <h1 className='text2 text-center p-4 font-bold text-[25px] sm:text-[30px] '>Tech Stack</h1>
+      {/* {/* <div className='slider bg-gray-700'>
           <div className='slide-track'>
           <img src={htmlImg} className='slide' height="80px" width="80px" alt="" />
           <img src={cssImg} className='slide' height="80px" width="80px" alt="" />
@@ -39,6 +39,39 @@ const Skills = () => {
           <img src={gitImg} className='slide' height="80px" width="80px" alt="" />
           
           </div>
+          </div> */}
+
+          <div className='flex flex-wrap mb-10 sm:flex-row justify-around p-10'>
+              <div className='neu-box p-4 mb-10'>
+                <img src={htmlImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={cssImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={javaImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={javascriptImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={figmaImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={reactImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={tailwindcssImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={gitImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={githubImg} height="100px" width="100px" alt="" />
+              </div>
+              <div className='neu-box p-4 mb-10'>
+                <img src={typescriptImg} height="100px" width="100px" alt="" />
+              </div>
           </div>
     </div>
   )

@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-preloaders": "^3.0.3",
     "react-scroll": "^1.8.9",
-    "three": "^0.155.0"
+    "three": "^0.155.0",
+    "use-sound": "^4.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

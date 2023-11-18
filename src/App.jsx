@@ -7,10 +7,12 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import portfoliosound from "./assets/portfoliosound.ogg"
+import { useEffect } from 'react';
 // import { useState } from 'react';
 // import ReactAudioPlayer from "react-audio-player";
 
 // const [music,onmusic] = useState();
+
 
 const handlemusic = () => {
   const x = document.getElementById('music')
@@ -21,12 +23,13 @@ const handlemusic = () => {
 
 
 const App = () => {
+  
   return (
     <div className=''>
       
       <div className='flex-1 flex flex-row'>
         <h4 className='text1 z-10 top-[400px] rotate-[-90deg] fixed items-center right-[-70px] invisible sm:visible' >gokulnatarajmoorthy@gmail.com</h4>
-        <button className='text1 font-extrabold z-10 top-[85px] rotate-[0deg] p-3 fixed rounded-full ml-2 bg-white' onClick={handlemusic}>🎵</button>
+        {/* <button className='text1 font-extrabold z-10 top-[85px] rotate-[0deg] p-3 fixed rounded-full ml-2 bg-white' onClick={handlemusic}>🎵</button> */}
         {/* <button className='text1 z-10 top-[490px] rotate-[-90deg] fixed text-white' onClick={off}>Sound off</button> */}
       </div>
       <Navbar />
