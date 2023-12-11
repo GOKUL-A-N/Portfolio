@@ -28,6 +28,11 @@ const App = () => {
     <div className=''>
       
       <div className='flex-1 flex flex-row'>
+      <div id="stars-container overfolw-hidden ">
+			<div id='stars'></div>
+			<div id='stars2'></div>
+			<div id='stars3'></div>
+</div>
         <h4 className='text1 z-10 top-[400px] rotate-[-90deg] fixed items-center right-[-70px] invisible sm:visible' >gokulnatarajmoorthy@gmail.com</h4>
         {/* <button className='text1 font-extrabold z-10 top-[85px] rotate-[0deg] p-3 fixed rounded-full ml-2 bg-white' onClick={handlemusic}>🎵</button> */}
         {/* <button className='text1 z-10 top-[490px] rotate-[-90deg] fixed text-white' onClick={off}>Sound off</button> */}

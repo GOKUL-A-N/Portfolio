@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const Projects = () => {
   return (
-    <div>
+    <div className='bg-transparent'>
         <h1 className='text2 text-center  font-bold text-[25px] sm:text-[30px]'>Projects</h1>
         <div className='flex flex-col md:flex-row'>
           <Fade onVisibilityChange={true} direction='left' className='w-[98%] md:w-[50%] p-10'>
