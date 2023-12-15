@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import githubIcons from "../assets/githubIcons.png";
-import linkedInIcons from "../assets/linkedInIcons.png";
-import youtubeIcons from "../assets/youtubeIcons.png";
+
 
 const Home = () => {
   return (

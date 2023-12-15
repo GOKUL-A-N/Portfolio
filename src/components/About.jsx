@@ -19,8 +19,8 @@ const About = () => {
             <h1 className='text1 text-[20px] sm:text-[30px] md:text-[40px]   font-bold'><ul className=' '>Gokul NatarajMoorthy</ul></h1>
             <h2 className='text1 font-bold text-[17px] sm:text-[30px]'>Front-End Web Developer / UI Designer</h2>
             <h6 className='text4 text-[13px] sm:text-[20px]'>19 years old</h6>
-            <p className='text1 text-[15px] sm:text-[22px]'>        Hello! I am Gokul, a front-end web developer student with a passion for creating user-friendly and visually appealing websites. I have a strong understanding of HTML, CSS, and JavaScript, and I am proficient in using popular front-end frameworks such as React and TailwindCss
-
+            <p className='text-gray-400 text-[15px] sm:text-[22px]'>        Hello! I am <span className='text-white font-semibold'>Gokul</span>, a <span className='text-white font-semibold'>front-end web developer</span> student with a passion for creating user-friendly and visually appealing websites. I have a strong understanding of <span className='text-white font-semibold'>Html, CSS ,JavaScript</span>, and I am proficient in using popular front-end frameworks such as <span className='text-white font-semibold'>React</span> and <span className='text-white font-semibold'>TailwindCss. </span>
+            I do have a desire for continuous learning backend tools such as <span className='text-white font-semibold'>Nodejs(Express)</span> and <span className='text-white font-semibold'>MongoDB. </span>
 I am excited to start my career as a front-end web developer and to contribute to the development of innovative and impactful web applications. I am confident that I can provide your company with high-quality work and help you to achieve your business goals.</p>
             <a href={Resume} download={Resume} className=' font-bold'><button className='mt-4 p-3 button rounded'>Resume</button></a>
           </div>
