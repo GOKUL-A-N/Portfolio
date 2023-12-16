@@ -46,7 +46,7 @@ const Navbar = () => {
          
          </div>
          <button  className='m-1 mr-5 realtive right-0  font-bold text-[23px] flex justify-center items-center'><Link className='Link' activeClass="active" smooth spy to="home">
-            <img src={logo} width={30} height={30} alt="" />
+            <img src={logo} width={100} height={100} alt="" />
           </Link></button>
   </nav>
   
