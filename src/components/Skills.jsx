@@ -14,11 +14,11 @@ import typescriptImg from "../assets/typescriptImg.png"
 const Skills = () => {
   return (
     <div className='flex flex-col justify-center bg-transparent'>
-      <div id="stars-container overflow-hidden ">
+      {/* <div id="stars-container overflow-hidden ">
 			<div id='stars'></div>
 			<div id='stars2'></div>
 			<div id='stars3'></div>
-      </div>
+      </div> */}
       <h1 className='text2 text-center p-4 font-bold text-[25px] sm:text-[30px] '>Tech Stack</h1>
       {/* {/* <div className='slider bg-gray-700'>
           <div className='slide-track'>

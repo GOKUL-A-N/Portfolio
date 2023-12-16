@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import logo from '../assets/logo.png'
 const Navbar = () => {
   return (
-    <div className='sticky top-0 z-10'>
+    <div className='sticky top-[0px] z-10'>
     <nav className="navbar flex flex-row">
       
       <div className="navbar-container container ">
@@ -44,7 +45,9 @@ const Navbar = () => {
          </ul>
          
          </div>
-         <button  className='m-1 mr-5 realtive right-0  font-bold text-[23px] flex justify-center items-center'><Link className='Link' activeClass="active" smooth spy to="home">Portfolio...</Link></button>
+         <button  className='m-1 mr-5 realtive right-0  font-bold text-[23px] flex justify-center items-center'><Link className='Link' activeClass="active" smooth spy to="home">
+            <img src={logo} width={30} height={30} alt="" />
+          </Link></button>
   </nav>
   
       {/* <Outlet /> */}
