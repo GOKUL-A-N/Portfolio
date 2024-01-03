@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import MyProfilePhoto from "../assets/MyProfilePhoto.png";
-import GOKUL_A_N from "../assets/GOKUL_A_N.pdf"
+import resume from "../assets/resume.pdf"
 import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
             <p className='text-gray-400 text-[15px] sm:text-[22px]'>        Hello! I am <span className='text-white font-semibold'>Gokul</span>, a <span className='text-white font-semibold'>front-end web developer</span> student with a passion for creating user-friendly and visually appealing websites. I have a strong understanding of <span className='text-white font-semibold'>Html, CSS ,JavaScript</span>, and I am proficient in using popular front-end frameworks such as <span className='text-white font-semibold'>React</span> and <span className='text-white font-semibold'>TailwindCss. </span>
             I do have a desire for continuous learning backend tools such as <span className='text-white font-semibold'>Nodejs(Express)</span> and <span className='text-white font-semibold'>MongoDB. </span>
 I am excited to start my career as a front-end web developer and to contribute to the development of innovative and impactful web applications. I am confident that I can provide your company with high-quality work and help you to achieve your business goals.</p>
-            <a href={GOKUL_A_N} download={GOKUL_A_N} className=' font-bold'><button className='mt-4 p-3 button rounded'>Resume</button></a>
+            <a href={resume} download={resume} className=' font-bold'><button className='mt-4 p-3 button rounded'>Resume</button></a>
           </div>
         </Fade>
       </div>
