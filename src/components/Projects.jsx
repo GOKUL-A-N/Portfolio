@@ -5,6 +5,7 @@ import project1Img from "../assets/project1Img.png";
 // import project3Img from "../assets/project3Img.png";
 import project4Img from "../assets/project4Img.png";
 import project5Img from "../assets/project5Img.png";
+import EducateUImg from "../assets/EducateUImg.png";
 import devconvoVid from "../assets/devconvoVid.mp4";
 import codeprepVid from "../assets/codeprepVid.mp4";
 // import ReactPlayer from 'react-player/lazy'
@@ -21,6 +22,36 @@ const Projects = () => {
       <h1 className="text2 text-center  font-bold text-[25px] sm:text-[30px]">
         Projects
       </h1>
+      <div className="flex flex-col md:flex-row-reverse">
+        <Fade
+          onVisibilityChange={true}
+          direction="right"
+          className="w-[98%] md:w-[50%] p-10"
+        >
+          <div>
+            <img src={EducateUImg} alt="" />
+          </div>
+        </Fade>
+        <div className=" w-[98%]  md:w-[50%] p-10">
+          <div>
+            <h1 className="text1 font-bold text-[20px] sm:text-[30px]">
+              EducateU
+            </h1>
+            <p className="text1 text-[15px] sm:text-[22px]">
+              {" "}
+              EducateU is an online learning platform designed to empower individuals and organizations with the knowledge and skills they need to succeed. Whether you're looking to advance your career, explore new interests, or simply stay up-to-date on the latest trends, EducateU has something for everyone.
+            </p>
+            <a href="https://github.com/GOKUL-A-N/EducateU"><button className="button p-3 text-black font-bold mt-4 sm:mt-0  rounded">
+              Github
+            </button></a>
+            <a href="https://educateu-mt3gf8d9u-gokul-a-n.vercel.app/"><button className="button p-3 text-black font-bold mt-4 sm:mt-0  sm:ml-3 rounded">
+              Link
+            </button></a>
+          </div>
+        </div>
+
+        
+      </div>
       <div className="flex flex-col md:flex-row">
         <Fade
           onVisibilityChange={true}
